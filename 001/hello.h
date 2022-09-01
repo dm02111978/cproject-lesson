@@ -6,3 +6,4 @@ license: MIT
 
 int hello (void);
 int goodbye (void);
+int and_and (void);
