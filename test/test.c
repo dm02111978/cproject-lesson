@@ -1,7 +1,7 @@
 #include <cstdio>
 
 int test(void) {
-  printf("� �� �㭪�� test...\n");
+  printf("А это функция test...\n");
 
   return 0;
 }

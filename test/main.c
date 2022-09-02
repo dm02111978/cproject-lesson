@@ -2,9 +2,9 @@
 #include <cstdio>
 
 int main(void) {
-printf("�� �㭪�� main!\n");
+printf("Это функция main!\n");
   test();
-printf("� ᭮�� �㭪�� main!\n");
+printf("И снова функция main!\n");
 
   return 0;
 }
