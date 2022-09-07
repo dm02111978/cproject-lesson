@@ -3,6 +3,7 @@ main.c
 author: DM
 license: MIT
 */
+#include <cstdio>
 #include "hello.h" // подключение заголовочного файла
 
 int main () {// обЪявление основной функции(точка входа)
