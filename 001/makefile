@@ -15,4 +15,4 @@ and.o:
 main.o:
 	g++ -c main.c
 clean:
-		del *.o *.exe
+		rm *.o *.exe
