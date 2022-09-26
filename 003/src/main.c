@@ -1,7 +1,7 @@
 #include "head.h"
 
 int  main() {
-  long int n;
+  unsigned long long int n;
   printf("Введите число: ");
       scanf("%d", &n);
       if (n >= 0)

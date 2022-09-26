@@ -6,4 +6,4 @@ license: MIT
 #include <cstdio>
 
 
-long int factorial(long int n);
+unsigned long long int factorial(unsigned long long int n);
