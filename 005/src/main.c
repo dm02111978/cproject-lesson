@@ -15,7 +15,7 @@ printf("По Фаренгейту\tПо Цельсию\n");
  printf ("%6.0f\t\t%6.1f\n", fahr, celsius);
  fahr = fahr + step;
 }*/
-for(fahr = 0; fahr <= 300; fahr = fahr + 20){
+for(fahr = 300; fahr >= 0; fahr = fahr - 20){
   printf("%6d\t\t%3.1f\n", fahr, (5.0/9.0)*(fahr-32.0));
 }
 }
