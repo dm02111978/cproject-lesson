@@ -1,14 +1,22 @@
 #include <stdio.h>
 // подсчет символов;
 main(){
-double nc;
-for(nc = 0; getchar() != EOF; ++nc) {
-  ;
-  printf("%.f\n", nc);
-}
-
-//for(c = 0; getchar() != EOF; c++)
-//{
-  //printf("%.0f\n", c);
-//}
+int c, ns, nt, nl;
+ns = 0;
+nt = 0;
+nl = 0;
+while((c = getchar()) != EOF){
+  if(c == ' '){
+    ns++;
+    printf("Пробелов %d\n", ns);
+  }
+  if(c == '\t'){
+    nt++;
+    printf("Табуляций %d\n", nt);
+  }
+  if(c == '\n'){
+    nl++;
+    printf("Переводов строки %d\n", nl);
+  }
+  }
 }
