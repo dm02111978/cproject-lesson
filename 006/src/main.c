@@ -1,9 +1,14 @@
 #include <stdio.h>
-// копирование ввода на вывод;
+// подсчет символов;
 main(){
-int c;
-while(c = (getchar() != EOF)) {
-  //putchar(c);
-  printf("%d\n", c);
+double nc;
+for(nc = 0; getchar() != EOF; ++nc) {
+  ;
+  printf("%.f\n", nc);
 }
+
+//for(c = 0; getchar() != EOF; c++)
+//{
+  //printf("%.0f\n", c);
+//}
 }
